@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+	<meta charset="UTF-8">
+	
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+    <title>Temporary Paws</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--scaling for devices-->
+	
+	
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+	<!--downloaded from getbootstrap.com for responsivness-->
+    
+    
+    <link href='http://fonts.googleapis.com/css?family=Belgrano|Courgette&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+   
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="icon" type="image/gif" href="pics/favicon.ico">
+    <!-- small pic next to title-->
+    
+  </head>
+  <body>
+    
+	<!-- top bar on page created with bootstrap (https://getbootstrap.com/components/#navbar) -->
+    <div class="navbar navbar-default navbar-fixed-top dognav" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
+		  <!--when screen display is smaller they go into drop down box-->
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+		  <!--Logo/links to homepage-->
+          <a class="navbar-brand doghomelogo" href="index.html">
+          Temporary Paws <img src="pics/favicon.ico" alt="paw"/>
+          </a>
+        </div>
+        <nav class="collapse navbar-collapse navbar-right"><!--when screen display is smaller they go into drop down box-->
+          <ul class="navbar-nav nav">
+		  <!--links and logo pics-->
+            <li class="active"><a href="index.html"><img src="pics/kennel.png" alt="kennel" class="navdogimg"/><br>Home</a></li>
+            <li><a href="about.html"><img src="pics/collar.png" alt="collar" class="navdogimg"/><br>About us</a></li>
+            <li><a href="services.html"><img src="pics/bone.png" alt="bone" class="navdogimg"/><br>Services</a></li>
+            <li><a href="contact.html"><img src="pics/mail.png" alt="phone" class="navdogimg"/><br>Contact us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+	
+	<!--video gif at very top-->
+	<div class="container">
+		  <div class="col-lg-12">
+			<div class="dogvid">
+				<video class="video vidog" autoplay loop>
+					<!--(add control to have play button) loop = continuous // autoplay = doesnt need to be clicked-->
+					<source src="pics/dogvid.mp4" type="video/mp4">
+				</video>
+			</div>
+		  </div>
+	</div><!--introduced video with bootstrap http://www.w3schools.com/css/tryit.asp?filename=tryresponsive_video2-->
+		
+
+
+<!--three inline boxes-->
+    <div class="container thumbs">
+		<div class="col-sm-6 col-md-4">
+			<div class="thumbnail trainbg">
+				<img src="pics/train1.png" alt="man and dog" class="img-responsive">
+				<div class="caption">
+					<h3 class="">Lend your Dog</h3>
+				
+					<ul>
+						<li>Be assured your dog is being looked after with the utmost care</li>
+						<li> Meet lenders who will love your dog as much as your dog loves you</li>
+					</ul>
+				
+					<div class="btn-toolbar text-center">
+					  <a href="contact.html" role="button" class="btn btn-primary pull-right">Become a lender</a> <!--button to contact page-->
+					</div>
+				</div>
+			</div>
+		</div>
+	  
+      <div class="col-sm-6 col-md-4">
+		<div class="thumbnail trainbg">
+          <img src="pics/train2.png" alt="man and dog" class="img-responsive">
+          <div class="caption">
+            <h3 class="">Rent a Dog</h3>
+            
+				<ul>
+					<li>Have the option to spend time with a four legged tail-wagger whenever you wish</li>
+					<li>Be involved with other dog lovers and become part of our community </li>
+				</ul>
+			
+            <div class="btn-toolbar text-center">
+              <a href="contact.html" role="button" class="btn btn-primary pull-right">Become a renter</a><!--button to contact page-->
+            </div>
+          </div>
+        </div>
+      </div>
+	  
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail trainbg">
+          <img src="pics/train3.png" alt="man and dog" class="img-responsive">
+          <div class="caption">
+            <h3 class="">Benefits for the Dog</h3>
+           
+				<ul>
+					<li>Shelter-free enviroment, no more sharing a small space with others.</li>
+					<li>Get love and attention wherever the dog goes from people who will care him</li>
+				</ul>
+			
+            <div class="btn-toolbar text-center">
+              <a href="contact.html" role="button" class="btn btn-primary pull-right">Join our community</a><!--button to contact page-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- details or services "about" -->
+    <div class="container">
+	
+      <div class="row">
+		<div class="col-sm-8"> <!-- three quaters of the page-->
+		
+		
+			<img src="pics/pawz.png" alt="paw prints" class="pawzabvabt img-responsive"> <!--image of paws to fill space-->
+		
+			<h3 class="">About us</h3> 
+			<br />
+			<p>We are a community formed for dog lovers and dog enthusiasts. Temporary Paws has created this community with a vision to connect all dog enthuasists together. we belive that dogs should be looked after and cared for with the utmost care. If you think so too, what are you waiting for become a member today. 
+			</p><p>If you have a dog let us help you find someone to care for it whenever you cannot or maybe you could take care of someomes four legged friend too.
+			</p>
+			<a href="about.html" role="button" class="btn btn-primary pull-right">More about us</a>
+		</div>
+				
+				
+		<!-- side info / links to services -->			
+		<div class="col-sm-4"> <!-- one quater of the page-->
+			    <h3 class="">News</h3>
+				<div class="dogtail">
+					<div class="text-right dogzz">02/11/2016</div> <!--text right class from bootstrap to position date and read more..--> <!--doggz class for colour and line-->
+					<p>Rex was returned to his owner today, but needs another renter in January</p>
+					<div class="text-right">
+					  <a href="services.html">Read more about Rex...</a><!--button/link-->
+					</div>
+				</div>
+			  
+			  <div class="dogtail">
+				<div class="text-right dogzz">14/05/2016</div><!--text right class from bootstrap to position date and read more..--> <!--doggz class for colour and line-->
+				<p>Tweety just joined our community, would you be interested in looking after her sometime?</p>
+				<div class="text-right">
+				  <a href="services.html">Read more about Tweety...</a><!--button/link-->
+				</div>
+			  </div>
+			  
+			  <div class="dogtail">
+	       		 <div class="text-right dogzz">29/02/2016</div><!--text right class from bootstrap to position date and read more..--> <!--doggz class for colour and line-->
+			    <p>Cute Dexter is looking to be rented on March 10th for a week, are you interested? </p>
+			    <div class="text-right">
+				<a href="services.html">Read more about Dexter...</a><!--button/link-->
+				</div>
+			  </div>
+		</div>
+      </div>
+	  
+    </div>
+
+
+    <!-- slide show of review at bottom-->
+    <div class="jumbotron">
+      <div class="container">
+        <div class="col-xs-12"> <!-- full lenght of page-->
+		<h3> Reviews </h3>
+        
+
+
+
+
+
+		<!--code for carousel from w3schools using bootstrap-->
+
+
+
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+	<!-- carousel moves without being clicked-->
+		  <ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+			<li data-target="#myCarousel" data-slide-to="3"></li>
+		  </ol>
+
+		  <!-- Wrapper for slides -->
+		  <!-- slide 1-->
+		  <div class="carousel-inner" role="listbox">
+			<div class="item active">
+			  <img src="pics/rv1.jpg" alt="review">
+			  <div class="carousel-caption">
+				<h2>Lender</h2>
+				<p>Mohammad Lended us Tweety</p>
+			  </div>
+			</div>
+
+			<!-- slide 2-->
+			<div class="item">
+			  <img src="pics/rv2.jpg" alt="review">
+			  <div class="carousel-caption">
+				<h2>Lender</h2>
+				<p>John Lended us Dexter</p>
+			  </div>
+			</div>
+
+			<!-- slide 3-->
+			<div class="item">
+			  <img src="pics/rv3.jpg" alt="review">
+			  <div class="carousel-caption">
+				<h2>Rented</h2>
+				<p>Mary Rented Rex </p>
+			  </div>
+			</div>
+			
+			<!-- slide 4-->
+			<div class="item">
+			  <img src="pics/rv4.jpg" alt="review">
+			  <div class="carousel-caption">
+				<h2>Rented</h2>
+				<p>Lucy Rented Squidward</p>
+			  </div>
+			</div>
+
+    
+		  </div>
+
+		  <!-- Left and right controls - changes from slide to slide when clicked-->
+		  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span><!--moves right-->
+		  </a>
+		  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span><!--moves left-->
+		  </a>
+		</div>
+
+
+
+
+  <!-- W3  ........................................ -->
+
+
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <div class="footer dogsfoot text-center">
+        <p>Copyright &copy; Temporary Paws 2016.</p>
+    </div>
+
+    <!-- J query link to jquery in our folder-->
+    <script src="javascript/jquery.js"></script>
+    
+    <script src="javascript/bootstrap.js"></script>
+
+
+	<!-- Back to top button - this code displays it on your page-->	
+	<a href="#" class="go-top" style="display: none;">Back to top&#9652;</a>
+	
+    <script src="javascript/examplejs.js"></script>
+	<!--for carousel and back to top--> 
+
+
+  </body>
+</html>

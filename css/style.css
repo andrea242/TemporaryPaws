@@ -1,0 +1,206 @@
+body {
+    background-color: #FFFFCC;
+    font-family: "Microsoft JhengHei UI Light", Arial, sans-serif;
+    background-repeat: repeat;
+}
+p {
+    margin: 0 0 20px;
+}
+
+div{
+   margin-bottom:8px;
+}
+
+.navbar {
+    background-image:url('../pics/bg.png');
+    background-repeat:repeat;
+}
+.jumbotron {
+    background-color: transparent;
+    padding: 0px;
+}
+
+.medialogoz {
+	text-align: center;
+}
+
+.footer {
+    margin-top: 40px;
+    padding: 30px 0;
+	background-image:url('../pics/bg.png');
+    background-repeat:repeat;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #195E19;
+}
+.dogtail {
+    border-bottom: 1px solid #195E19;
+    padding-bottom: 30px;
+}
+
+
+.dogtail + .dogtail {
+    padding-top: 30px;
+}
+.dogtail .dogzz {
+    margin-bottom: 7px;
+    color: #195E19;
+}
+
+.dogsfoot {
+    background-image:url('../pics/bg.png');
+    background-repeat:repeat;
+    font-weight: bold;
+}
+
+.dognav {
+    font-weight: bold;
+}
+
+.doghomelogo{
+    font-weight: normal;
+}
+
+.dogslide{
+    font-style: italic;
+}
+
+.contactdog{
+	border:10px;
+	border-color: black;
+}
+
+
+.emptyboxer{
+    position: relative;
+    top: 600px;
+}
+
+.navdogimg{
+    align-content: center;
+    height:30px;
+    text-align: center;
+}
+
+.trainbg {
+	background-color: #FFFFCC;
+	
+}
+
+.vidog{
+	width:100%;
+	height:auto;
+}
+
+.vison{
+	font-weight:bold
+}
+
+.pawzabvabt{
+margin-left: auto;
+margin-right: auto;
+width: 580px;
+height: 320px;}
+
+.radiobtn{
+    padding:5px;
+    color:#222;
+    font-family:corbel,sans-serif;
+    font-size: 14px;
+    margin: 10px;
+}
+
+.ourinfopawz{
+	text-align: center;
+	font-weight: strong;
+}
+/*Back to top button (code from http://stackoverflow.com*/
+.go-top {
+    position: fixed;
+    bottom: 0.75em;
+    right: 0.5em;
+    text-decoration: none;
+    color: #195E19;
+    background-image:url('../pics/bg.png');
+    font-size: 12px;
+    padding: 10px;
+    display: none;
+    margin: 0;
+}
+
+.go-top:hover {
+    background-color: #fff;
+    color:  #195E19;
+    text-decoration: underline;
+}
+
+/* Flexible iFrame MAKES THE MAP RESPONSIVE. */
+.Flexible-container {
+    position: relative;
+    padding-bottom: 65%;
+    padding-top: 25px;
+    height: 0;
+    overflow: hidden;
+}
+
+.Flexible-container iframe,   
+.Flexible-container object,  
+.Flexible-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*edit of the default text in scrol (contact page)*/
+.movintext{
+	color: #195E19;
+	font-family:  belgrano, sans-serif;
+	font-size: 20px
+}
+
+.dogformcenter{
+	margin: 0 auto;
+	width: 70%;
+}
+
+.input {
+    float: right;
+	margin-bottom: auto;
+}
+
+
+.abtservices {
+	text-align: center;
+}
+
+.svcline{
+	border-color: black;
+	
+}
+
+.interst{
+	color: green;
+text-align: center;}
+
+
+
+.morph {/*webkit/ms/o are for the different browsers*/
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+/*makes pic turn in full circle when hover*/
+.morph:hover {
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
